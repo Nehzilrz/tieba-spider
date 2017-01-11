@@ -1,0 +1,7 @@
+{
+    "max_connection_num": 100,
+    "page_num": 2,
+    "specific_keywords": ["卖", "买", "出", "收"],
+    "specific_table": "transactions",
+    "update_list": ["双梦镇", "乾坤一掷", "风雨大姨妈", "唯满侠", "圣墓山"]
+}

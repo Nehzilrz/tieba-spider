@@ -1,0 +1,30 @@
+{
+  "name": "tieba-spider",
+  "version": "1.0.0",
+  "description": "A extremely fast tool to crawl the posts and replies in Baidu Tieba. The tool will store data in mongodb automatically.",
+  "main": "dist/app.js",
+  "dependencies": {
+    "@types/mongoose": "^4.7.2",
+    "@types/node": "^6.0.58",
+    "@types/request": "0.0.39",
+    "@types/request-promise": "^4.1.33",
+    "cheerio": "^0.22.0",
+    "mongoose": "^4.7.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc -p . --rootDir src --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nehzilrz/tieba-spider.git"
+  },
+  "author": "Zhen LI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nehzilrz/tieba-spider/issues"
+  },
+  "homepage": "https://github.com/Nehzilrz/tieba-spider#readme"
+}

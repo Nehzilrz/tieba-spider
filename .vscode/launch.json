@@ -8,9 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/app.js",
-            "cwd": "${workspaceRoot}",
-            "runtimeArgs": ["--harmony"]
+            "program": "${workspaceRoot}/dist/app.js",
+            "cwd": "${workspaceRoot}"
+            //"runtimeArgs": ["--harmony"]
         },
         {
             "type": "node",
